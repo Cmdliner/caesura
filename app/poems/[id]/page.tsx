@@ -32,7 +32,7 @@ I took the one less traveled by,
 And that has made all the difference.`,
 }
 
-export default function PoemPage({ params }: { params: { id: string } }) {
+export default function PoemPage() {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
